@@ -13,3 +13,35 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('Aiconfont.eot');
+  src: url('Aiconfont.eot?#iefix') format('embedded-opentype'),
+  url('Aiconfont.woff') format('woff'),
+  url('Aiconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('Biconfont.eot');
+  src: url('Biconfont.eot?#iefix') format('embedded-opentype'),
+  url('Biconfont.woff') format('woff'),
+  url('Biconfont.ttf') format('truetype'),
+  url('Biconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
