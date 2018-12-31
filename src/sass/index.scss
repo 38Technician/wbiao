@@ -157,6 +157,7 @@ body,ul,li,p,h1,h2,h3,h4,h5,h6,a{margin: 0;padding: 0;}
 .w_main{
 	width: 100%;
 	position: relative;
+	height: 460px;
 	ul{
 		li{
 			width: 100%;
@@ -222,3 +223,56 @@ body,ul,li,p,h1,h2,h3,h4,h5,h6,a{margin: 0;padding: 0;}
 		}
 	}
 }
+
+.main_bto{
+	width: 100%;
+	ul{
+		width: 1212px;
+		height: 280px;
+		margin: 0 auto;
+		li{
+			width: 291px;
+			height: 280px;
+			position: relative;
+			float: left;
+			margin: 0 6px 0 6px;
+			display: block;
+			list-style: none;
+			overflow: hidden;
+			
+			img{
+				display: block;
+				transition: all 0.5s ease;
+			}
+			div{
+				width: 291px;
+				position: absolute;
+				top: 22px;
+				.p_t{
+					font-weight: 600;
+					text-align: center;
+					font-size: 16px;
+					color: #fff;
+				}
+				.p_b{
+					font-size: 12px;
+					text-align: center;
+					color: #fff;
+					margin-top: 5px;
+				}
+			}
+		}
+		li:hover img{
+			// cursor: crosshair;
+			transform: scale(1.1); 
+		}
+	}
+}
+.time_buy_top{
+	height: 60px;
+	width: 1200px;
+	div{
+		
+	}
+}
+			
