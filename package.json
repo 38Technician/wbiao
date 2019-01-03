@@ -16,5 +16,14 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/38Technician/wbiao.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/38Technician/wbiao/issues"
+  },
+  "homepage": "https://github.com/38Technician/wbiao#readme"
 }

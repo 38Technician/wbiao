@@ -59,7 +59,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="w_main">
+		<div class="flexslider">
 			<ul>
 				<li><a href=""><img src="img/home_banner1.jpg" ></a></li>
 				<li><a href=""><img src="img/home_banner2.jpg" ></a></li>
@@ -74,14 +74,7 @@
 			<div class="main_b">
 				<i class="iconfont">&#xe508;</i>
 			</div>
-			<div class="lbdian">
-				<span class="iconfont">&#xe50e;</span>
-				<span class="iconfont">&#xe621;</span>
-				<span class="iconfont">&#xe50e;</span>
-				<span class="iconfont">&#xe50e;</span>
-				<span class="iconfont">&#xe50e;</span>
-				<span class="iconfont">&#xe50e;</span>
-			</div>
+			
 		</div>
 		<div class="main_bto">
 			<ul>
@@ -418,7 +411,8 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/index.min.js"></script>
-		<script src="js/carousel.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/carousel.min.js" charset="utf-8"></script>
 		
 		<script type="text/javascript">
 			$(function(){
@@ -447,6 +441,14 @@
 				$(this).find(".carousel-prev,.carousel-next,.carousel-index").stop().fadeIn(300);
 			},function(){
 				$(this).find(".carousel-prev,.carousel-next,.carousel-index").stop().fadeOut(300);
+			});
+		});
+		
+		$(document).ready(function(){
+			$('.flexslider').flexslider({
+				directionNav: true,
+				pauseOnAction: false,
+				slideshowSpeed: 3000
 			});
 		});
 		</script>
