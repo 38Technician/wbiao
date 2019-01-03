@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 
 (function ($, window) {
 	// el 	: { imgsContainer , prevBtn , nextBtn , indexContainer }

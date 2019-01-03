@@ -1,0 +1,141 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span,dl,dt,dd,input{margin: 0;padding: 0;}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+body{
+	background: #fafafa;
+}
+.W_main{
+	width: 990px;
+	height: 845px;
+	margin: 0 auto;
+	.W_main_head{
+		width: 990px;
+		height: 115px;
+		margin-top: 52px;
+	}
+	.W_main_box{
+		width: 990px;
+		height: 690px;
+		border: 1px solid #f0f0f0;
+		background: #fff;
+		margin-top: 40px;
+		.W_main_box_content{
+			padding: 50px 0;
+			h2{
+				font-weight: 400;
+				font-size: 28px;
+				color: #000;
+				padding-bottom: 30px;
+				text-align: center;
+			}
+			.content_box{
+				    width: 338px;
+					margin: 0 auto;
+					p{
+						margin-top: 15px;
+						line-height: 38px;
+						position: relative;
+						overflow: hidden;
+						
+						em{
+							position: absolute;
+							top: 12px;
+							left: 11px;
+						}
+						input{
+							width: 301px;
+							height: 38px;
+							line-height: 38px;
+							border: 1px solid #e8e8e8;
+							font-size: 12px;
+							background-color: transparent;
+							padding-left: 35px;
+						}
+					}
+					i{
+						line-height: 16px;
+						font-size: 10px;
+						color: #d00000;
+						margin-top: 8px;
+						display: none;
+						margin-bottom: -7px;
+						font-weight: 700;
+						background: url(../img/JTH.png) no-repeat left center;
+						padding-left: 18px;
+					}
+					
+					div:nth-child(2){
+						p{
+							.imgYZM{
+								width: 193px;
+							}
+							img{
+								border: 0;
+								display: block;
+								float: right;
+							}
+						}
+					}
+					div:nth-child(3){
+						p{
+							.textYZM{
+								width: 193px;
+							}
+							.btnYZM{
+								    float: right;
+									width: 98px;
+									cursor: pointer;
+									height: 38px;
+									background: #fff;
+									border: 1px solid #ddd;
+									color: #333!important;
+									font-size: 12px;
+									padding: 0;
+							}
+						}
+					}
+					div:nth-child(6){
+						input{
+							width: 301px;
+							height: 38px;
+							line-height: 38px;
+							border: 1px solid #e8e8e8;
+							font-size: 12px;
+							background-color: transparent;
+							padding-left: 35px;
+							padding-left: 10px;
+							width: 326px;
+							margin-top: 15px;
+						}
+					}
+			}
+			
+			.register{
+				width: 340px;
+				height: 38px;
+				font-size: 14px;
+				background: #b32424;
+				color: #fff;
+				border: 0;
+				border-radius: 2px;
+				display: block;
+				margin: 35px auto 0;
+				line-height: 38px;
+				text-align: center;
+			}
+			.condition{
+					font-size: 12px;
+					color: #999;
+					padding-bottom: 20px;
+					a{
+						color: #000;
+					}
+			}
+		}
+	}
+}

@@ -11,7 +11,7 @@ gulp.task('img',function(){
 	gulp.src('src/img/*').pipe(imagemin()).pipe(gulp.dest('dist/img'));
 })
 gulp.task('js',function(){
-	gulp.src('src/js/*.js').pipe(uglify()).pipe(rename('index.min.js')).pipe(gulp.dest('dist/js'));
+	gulp.src('src/js/*.js').pipe(uglify()).pipe(rename({"suffix" : ".min"})).pipe(gulp.dest('dist/js'));
 })
 gulp.task('sass',function(){
 	gulp.src('src/sass/*.scss').pipe(sass()).pipe(nano()).pipe(rename({"suffix" : ".min"})).pipe(gulp.dest('dist/css'));

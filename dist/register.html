@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.min.css">
+	</head>
+	<body>
+		<div class="W_main">
+			<div class="W_main_head">
+				<div>
+					<a href="">
+						<img src="img/logo-icon.png">
+						<img src="img/slogan-02242018.png">
+					</a>
+				</div>
+			</div>
+			<div class="W_main_box">
+				<div class="W_main_box_content">
+					<h2>注册万表会员</h2>
+						<div class="content_box">
+							<div class="box">
+								<p>
+									<em class="icon-a-phone-icon"></em> 
+									<input type="text" id="mobile" placeholder="请输入手机号码">
+								</p>
+								<i id="i_a">请输入正确的手机号</i>
+							</div>
+							<div class="box">
+								<p>
+									<em class=""></em> 
+									<input type="text" class="imgYZM" id="encode"placeholder="请输入图形验证码"> 
+									<img src="img/YZM1.png"  alt="验证码" title="看不清？点击更换另一个验证码。" >
+								</p>
+									<i id="i_b">请输入正确的验证码，注意区分大小写！</i>
+							</div>
+							<div class="box">
+								<p>
+									<em class=""></em>
+									<input type="text" class="textYZM" name="captcha" id="captcha" placeholder="请输入短信验证码"> 
+									<input class="btnYZM" id="getcaptcha" type="button" title="点击获取验证码" value="获取验证码">
+								</p>
+								<i id="i_c">请输入验证码</i>
+							</div>
+							<div class="box">
+								<p>
+									<em></em> 
+									<input type="password" id="upwd" name="password"placeholder="请设置密码" value="" >
+									<span></span>
+								</p>
+								<i id="i_d">密码应为6-20位任意字符组合</i>
+							</div>
+							<div class="box">
+								<p>
+									<em></em> 
+									<input type="password" id="againpwd" name="confirm_password"placeholder="请再次输入密码" >
+									<span></span>
+								</p>
+								<i id="i_e">两次密码不一致，请重新输入</i>
+							</div>
+							
+							<div class="box recommend"> 
+								<input type="text" placeholder="如有推荐人，请填写推荐人手机号"><i></i>
+							</div> 
+							<a href=""class="register" id="register">立即注册</a>
+							<p class="condition">
+								点击“立即注册”，即表示您同意并愿意遵守
+								<a target="_blank" href="">万表网用户协议</a>
+							</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.11.3.js">
+		</script>
+		<script src="js/jquery.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/register.min.js"></script>
+	</body>
+</html>
